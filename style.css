@@ -251,6 +251,13 @@ input[type="number"] {
     display: block;
     padding: 5rem 1.5rem;
     top: 5px;
+    background-image: none;
+    transform: translateY(-15px);
+  }
+
+  .grafismo-azul {
+    align-self: center;
+    transform: translate(-107px, 1px) scale(0.5);
   }
 
   .titulo {
@@ -260,19 +267,6 @@ input[type="number"] {
     margin-bottom: 2.5rem;
     position: relative;
     top: 10px;
-  }
-
-  .produto-input {
-    width: 115%;
-    text-align: left;
-    align-items: center;
-    font-size: 0.9rem;
-  }
-
-  .texto-medio-azul {
-    width: 100%;
-    text-align: center;
-    font-size: 1.3rem;
   }
 
   .formulario {
@@ -297,6 +291,19 @@ input[type="number"] {
     grid-row: 1;
   }
 
+  .produto-input {
+    width: 115%;
+    text-align: left;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+
+  .texto-medio-azul {
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
   .botoes-wrapper {
     justify-content: center;
     width: 100%;
@@ -304,7 +311,7 @@ input[type="number"] {
     grid-row: 2;
     gap: 0.35rem;
   }
-  
+
   .carrinho {
     align-items: center;
     transform: translateX(-40px);
@@ -316,7 +323,7 @@ input[type="number"] {
     text-align: center;
     font-size: 1.5rem;
   }
-  
+
   .carrinho__produtos {
     align-items: center;
   }
@@ -325,23 +332,12 @@ input[type="number"] {
     font-size: 1.3rem;
   }
 
-  .carrinho__total {
-    position: relative;
-    top: 60px;
-  }
-
   .divisoria {
     width: 20rem;
   }
 
-  .conteudo-principal {
-    background-image: none;
-    transform: translateY(-15px);
+  .carrinho__total {
+    position: relative;
+    top: 60px;
   }
-
-  .grafismo-azul {
-    align-self: center;
-    transform: translate(-107px, 1px) scale(0.5);
-  }
-
 }
